@@ -20,7 +20,7 @@ Desenvolver um identificador de faixa etária utilizando **javascript**.
 ---
 ## Links: 🌐
 ***Projeto online GitHub Pages:***<br>
-[<ins>Link do projeto</ins>](https://caioliveira277.github.io/identificador-pessoa/)
+[<ins>Link do projeto</ins>](https://caioliveira277.github.io/index-projetos-js-fatec/projects/jogo-mosca/index.html
 
 
 ---
