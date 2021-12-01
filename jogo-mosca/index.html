@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+  <title>Jogo - Mata Mosca</title>
+</head>
+
+<body>
+  <div class="modal">
+    <div>
+      <h2>Parabéns!!<br>🎉 Você marcou <span class="pontuacao">0</span> pontos 🎉</h2>
+      <button type="button" class="btn-reiniciar">Reiniciar</button>
+    </div>
+  </div>
+  <div class="status">
+    <div>
+      <p>Pontuação:</p>
+      <p class="pontuacao"></p>
+    </div>
+    <div>
+      <p>Tempo:</p>
+      <p class="tempo"></p>
+    </div>
+    <div>
+      <p>Vida:</p>
+      <p class="vida"></p>
+    </div>
+  </div>
+
+  <div class="painel">
+    <h1>Jogo mata mosca</h1>
+    <h3>Para começar seleciona o nivel abaixo e clique em inciar</h3>
+    <div class="niveis">
+      <label for="nivel-facil">
+        Facil:
+        <input type="radio" checked id="nivel-facil" name="nivel" value="facil">
+      </label>
+      <label for="nivel-dificil">
+        Difícil:
+        <input type="radio" id="nivel-dificil" name="nivel" value="dificil">
+      </label>
+    </div>
+    <button class="btn-iniciar">Iniciar o jogo</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
