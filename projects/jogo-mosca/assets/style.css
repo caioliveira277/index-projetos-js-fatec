@@ -5,6 +5,7 @@
 
 body.jogo-iniciado {
   cursor: url(./images/mata-mosca.png), default;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
 }
 .modal {

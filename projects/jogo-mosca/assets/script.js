@@ -32,7 +32,7 @@ function adicionarMosca() {
   mosca.height = mosca.width
 
   document.body.appendChild(mosca);
-  mosca.src = './images/mosca.png';
+  mosca.src = './assets/images/mosca.png';
   clearTimeout(tempo_remocao);
 }
 
@@ -95,7 +95,7 @@ function finalizarJogo() {
 
 mosca.addEventListener('click', () => {
   atualizarPontuacao(1);
-  mosca.src = './images/ponto-marcado.png';
+  mosca.src = './assets/images/ponto-marcado.png';
   tempo_remocao = setTimeout(() => {
     removerMosca();
   }, 300)
