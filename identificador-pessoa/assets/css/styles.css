@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+.retorno:not(.masculino, .feminino) {
+    display: none;
+}
+
+.retorno.masculino .feminino {
+    display: none !important;
+}
+.retorno.feminino .masculino {
+    display: none !important;
+}
+.retorno img {
+    display: none;
+}
+.retorno.jovem .jovem {
+    display: block;
+}
+.retorno.adulto .adulto {
+    display: block;
+}
+.retorno.idoso .idoso {
+    display: block;
+}
+
+.alerta p {
+    display: none;
+}
+.alerta.erro_idade p.erro_idade {
+    display: block;
+}
+.alerta.erro_sexo p.erro_sexo {
+    display: block;
+}
