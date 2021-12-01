@@ -1,0 +1,92 @@
+* {
+    font-family: monospace;
+    appearance: unset;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #2e2e2e;
+    overflow: hidden;
+}
+body.erro main {
+    display: none;
+}
+body .tela-azul {
+    display: none;
+}
+body.erro .tela-azul {
+    display: block;
+}
+
+main {
+    background-image: url('../images/background.png');
+    max-width: 1200px;
+    max-height: 673px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.texto-vermelho {
+    color: #FD302F;
+}
+.texto-azul {
+    color: #4747FA;
+}
+
+
+
+.calculadora {
+    width: 350px;
+    margin: 15px;
+}
+.status-bar-field {
+    flex-grow: 0;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.field-row-stacked {
+    margin-bottom: 5px;
+}
+
+.calculadora input {
+    padding: 5px;
+    font-size: 16px;
+    text-align: end;
+    border: 1px solid #7f9db9;
+}
+
+.row button {
+    margin: 3px;
+}
+.row > button:first-of-type {
+    margin-right: 15px;
+}
+.window-body button{
+    width: 100%;
+    min-width: unset;
+}
+button.space {
+    width: 48px;
+    height: 28px;
+    margin-right: 33px !important;
+    background: transparent;
+    border-radius: 0;
+    border: 1px inset #ece9d8;
+}
+button:disabled {
+    opacity: 0.5;
+}

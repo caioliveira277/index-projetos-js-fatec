@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png">
+    <title>Calculadora Windows XP</title>
+</head>
+
+<body class="centralizar">
+    <img src="./assets/images/windows_error.png" class="tela-azul" alt="Tela azul da morte">
+    <main class="centralizar">
+        <div class="window calculadora">
+            <div class="title-bar">
+                <div class="title-bar-text row">
+                    <img src="./assets/images/icone-calculadora.png" width="16" height="16" alt="Icone da calculadora do Windows XP">
+                    Calculadora
+                </div>
+                <div class="title-bar-controls">
+                    <button type="button" aria-label="Minimize"></button>
+                    <button type="button" aria-label="Maximize"></button>
+                    <button type="button" aria-label="Close" class="erro"></button>
+                </div>
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Editar</p>
+                <p class="status-bar-field">Exibir</p>
+                <p class="status-bar-field">Ajuda</p>
+            </div>
+            <div class="window-body">
+                <div class="field-row-stacked">
+                    <input type="text" placeholder="0" autofocus />
+                </div>
+                <div class="row">
+                    <button type="button" class="space" disabled></button>
+                    <button type="button" class="texto-vermelho">Backspace</button>
+                    <button type="button" class="texto-vermelho" disabled>CE</button>
+                    <button type="button" class="texto-vermelho">C</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="texto-vermelho" disabled>MC</button>
+                    <button type="button" class="texto-azul">7</button>
+                    <button type="button" class="texto-azul">8</button>
+                    <button type="button" class="texto-azul">9</button>
+                    <button type="button" class="texto-vermelho">/</button>
+                    <button type="button" class="texto-azul" disabled>sqrt</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="texto-vermelho" disabled>MR</button>
+                    <button type="button" class="texto-azul">4</button>
+                    <button type="button" class="texto-azul">5</button>
+                    <button type="button" class="texto-azul">6</button>
+                    <button type="button" class="texto-vermelho">*</button>
+                    <button type="button" class="texto-azul" disabled>%</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="texto-vermelho" disabled>MS</button>
+                    <button type="button" class="texto-azul">1</button>
+                    <button type="button" class="texto-azul">2</button>
+                    <button type="button" class="texto-azul">3</button>
+                    <button type="button" class="texto-vermelho">-</button>
+                    <button type="button" class="texto-azul" disabled>1/x</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="texto-vermelho" disabled>M+</button>
+                    <button type="button" class="texto-azul">0</button>
+                    <button type="button" class="texto-azul" disabled>+/-</button>
+                    <button type="button" class="texto-azul">.</button>
+                    <button type="button" class="texto-vermelho">+</button>
+                    <button type="button" class="texto-azul">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
