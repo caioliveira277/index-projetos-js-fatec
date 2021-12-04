@@ -10,7 +10,7 @@
 <br>
 
 ## Ideia 💡:
-Desenvolver uma pagina de indice de projetos desenvolvidos **durante o semestre**.
+Desenvolver uma pagina de índice de projetos desenvolvidos **durante o semestre**.
 
 ## Funcionalidades:
 - Visualizar lista de projetos;
