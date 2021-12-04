@@ -75,6 +75,14 @@ img {
 .card:hover {
     border-color: #397795;
 }
+small {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.cover {
+    object-fit: cover;
+}
 
 @media screen and (max-width: 768px) {
     .logo-fatec {
